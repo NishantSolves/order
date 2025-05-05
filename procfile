@@ -1,0 +1,2 @@
+# Railway needs one “web” process even if it’s just a health check
+web: gunicorn main:app
